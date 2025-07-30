@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="=en">
+    <head>
+        <title>HTML LEARNING TOOL</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <h1 class="page-title">HTML LEARNING TOOL</h1>
+        <p class="subtitle">A quick guide to commonly used HTML tags</p>
+        <table class="main-table" cellpadding = "10" cellspacing="2" bordercolor="black" width = 100% >
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Syntax</th>
+                <th>Browser view</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;!--</td>
+                <td>comment</td>
+                <td>&lt;!--This can be viewed in the HTML part of a document--&gt;</td>
+                <td><a href = "https://www.w3schools.com/tags/tag_comment.asp" target="_blank" rel="noopener noreferrer" >Click </a> to see how comments look like</td>
+            </tr>
+
+            <tr>
+                <td>&lt;a-</td>
+                <td>anchor</td>
+                <td>&lt; a href = "http://www.youtube.com">Visit youtube&lt;/ a &gt;</td>
+                <td><a href = "https://www.youtube.com/" target="_blank" rel="noopener noreferrer" >Visit youtube</a></td>
+            </tr>
+
+             <tr>
+                <td>&lt; body &gt;</td>
+                <td>body of html document</td>
+                <td>&lt; body &gt; The content of your html page &lt;/ body &gt;</td>
+                <td><a href = "https://www.w3schools.com/tags/tag_body.asp" target="_blank" rel="noopener noreferrer" >Click</a> to see a sample code</td>
+            </tr>
+
+             <tr>
+                <td>&lt; br &gt;</td>
+                <td>line break</td>
+                <td>The contents of your page &lt; br &gt; The contents of your page</td>
+                <td>The contents of your page <br> The contents of your page</td>
+            </tr>
+
+             <tr>
+                <td>&lt; center &gt;</td>
+                <td>center</td>
+                <td>&lt; center &gt; This will center your contents &lt;/ center &gt;</td>
+                <td><center> This will center your contents </center></td>
+            </tr>
+
+            <tr>
+                <td>&lt; dd &gt;</td>
+                <td>definition description</td>
+                <td>&lt; dl &gt; <br>
+                    &lt; dt &gt;definition term &lt;/ dt &gt; <br>
+                    <b>&lt; dd &gt;definition of the term &lt;/ dd &gt;</b> <br>
+                    &lt; dt &gt;definition term &lt;/ dt &gt; <br>
+                    <b>&lt; dd &gt;definition of the term &lt;/ dd &gt;</b> <br>
+                    &lt; /dl &gt; 
+                </td>
+                <td><dl>
+                    <dt>definition term</dt>
+                    <b><dd>definition of the term</dd></b>
+                    <dt>definition term</dt>
+                    <b><dd>definition of the term</dd></b>
+                    </dl>
+            </tr>
+
+            <tr>
+                <td>&lt; dl &gt;</td>
+                <td>definition list</td>
+                <td><b>&lt; dl &gt; <br></b>
+                    &lt; dt &gt;definition term &lt;/ dt &gt; <br>
+                    &lt; dd &gt;definition of the term &lt;/ dd &gt; <br>
+                    &lt; dt &gt;definition term &lt;/ dt &gt; <br>
+                    &lt; dd &gt;definition of the term &lt;/ dd &gt; <br>
+                    <b>&lt; dl &gt; <br></b> 
+                </td>
+                <td><dl>
+                    <dt>definition term</dt>
+                    <dd>definition of the term</dd>
+                    <dt>definition term</dt>
+                    <dd>definition of the term</dd>
+                    </dl>
+            </tr>
+
+            <tr>
+                <td>&lt; dt &gt;</td>
+                <td>definition term</td>
+                <td><b>&lt; dl &gt; <br></b>
+                    <b>&lt; dt &gt;definition term &lt;/ dt &gt;</b> <br>
+                    &lt; dd &gt;definition of the term &lt;/ dd &gt; <br>
+                    <b>&lt; dt &gt;definition term &lt;/ dt &gt;</b> <br>
+                    &lt; dd &gt;definition of the term &lt;/ dd &gt; <br>
+                    <b>&lt; dl &gt; <br></b> 
+                </td>
+                <td><dl>
+                    <dt><b>definition term</b></dt>
+                    <dd>definition of the term</dd>
+                    <dt><b>definition term</b></dt>
+                    <dd>definition of the term</dd>
+                    </dl>
+            </tr>
+            
+            <tr>
+                <td>&lt; embed &gt;</td>
+                <td>embed object</td>
+                <td><b>&lt; embed</b> src="yourfile.mid" width = "100%" height = "60" align="center" &gt;</td>
+                <td>"Displays an embedded audio player (MIDI) inside the page"
+                </td>
+            </tr>
+
+            <tr>
+                <td>&lt; embed &gt;</td>
+                <td>embed object</td>
+                <td><b>&lt; embed</b> src="yourfile.mid" autostart = "true" hidden = "false" loop="false" &gt; <br>
+                    &lt; noembed &gt; &lt; bgsound  src="yourfile.mid" loop = "1" &gt; &lt; /noembed &gt; </td>
+                <td>Music will begin playing when your page is loaded and will only play one time.<br>
+                A control panel will be displayed to enable your visitors to stop the music</td>
+            </tr>
+            
+            <tr>
+                <td>&lt; b &gt;</td>
+                <td>bold</td>
+                <td>&lt; b &gt; EXAMPLE &lt;/ b &gt;</td>
+                <td><b>EXAMPLE</b></td>
+            </tr>
+            <tr>
+                <td>&lt; em &gt;</td>
+                <td>emphasis</td>
+                <td>This is an  <b>&lt; em &gt;</b> Example <b>&lt; /em &gt;</b> of using the emphasis tag</td>
+                <td>This is an  <em> Example </em> of using the emphasis tag</td>
+            </tr>
+
+
+            <tr>
+                <td>&lt; font &gt;</td>
+                <td>font</td>
+                <td><b>&lt; font </b> face = "Times New Roman" &gt; Example &lt;/ font &gt; </td>
+                <td><font face = "Times New Roman" >Example</font></td>
+            </tr>
+
+            <tr>
+                <td>&lt;font&gt;</td>
+                <td>font</td>
+                <td>&lt;font face="Times New Roman" size="4"&gt;Example&lt;/font&gt;</td>
+                <td><font face="Times New Roman" size="4">Example</font></td>
+            </tr>
+
+            <tr>
+                <td>&lt;font&gt;</td>
+                <td>font (with color)</td>
+                <td>&lt;font face="Times New Roman" size="+3" color="#ff0000"&gt;Example&lt;/font&gt;</td>
+                <td><font face="Times New Roman" size="+3" color="#ff0000">Example</font></td>
+            </tr>
+
+            <tr>
+                <td>&lt;form&gt;</td>
+                <td>form</td>
+                <td>
+                    &lt;form action="mailto:you@yourdomain.com"&gt;<br>
+                    Name: &lt;input name="Name" value="" size="10"&gt;&lt;br&gt;<br>
+                    Email: &lt;input name="Email" value="" size="10"&gt;&lt;br&gt;<br>
+                    &lt;center&gt;&lt;input type="submit"&gt;&lt;/center&gt;<br>
+                    &lt;/form&gt;
+                </td>
+                <td>
+                    <form action="mailto:you@yourdomain.com">
+                        Name: <input name="Name" value="" size="10"><br>  
+                        Email: <input name="Email" value="" size="10"><br> 
+                        <center><input type="submit"></center> 
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; ... &lt;h6&gt;</td>
+                <td>headings</td>
+                <td>
+                    &lt;h1&gt;Heading 1 Example&lt;/h1&gt;<br>
+                    &lt;h2&gt;Heading 2 Example&lt;/h2&gt;<br>
+                    &lt;h3&gt;Heading 3 Example&lt;/h3&gt;<br>
+                    &lt;h4&gt;Heading 4 Example&lt;/h4&gt;<br>
+                    &lt;h5&gt;Heading 5 Example&lt;/h5&gt;<br>
+                    &lt;h6&gt;Heading 6 Example&lt;/h6&gt;
+               </td>
+               <td>
+                   <h1>Heading 1 Example</h1>
+                   <h2>Heading 2 Example</h2>
+                   <h3>Heading 3 Example</h3>
+                   <h4>Heading 4 Example</h4>
+                   <h5>Heading 5 Example</h5>
+                   <h6>Heading 6 Example</h6>
+               </td>
+            </tr>
+
+            <tr>
+                <td>&lt;hr&gt;</td>
+                <td>horizontal rule</td>
+                <td>&lt;hr&gt;</td>
+                <td>"Contents of your web page "<hr>"Contents of your web page"</td>
+            </tr>
+
+<tr>
+    <td>&lt;hr&gt;</td>
+    <td>horizontal rule (styled)</td>
+    <td>&lt;hr width="50%" size="3"&gt;</td>
+    <td>"Contents of your web page" <hr width="50%" size="3">"Contents of your web page"</td>
+</tr>
+
+<tr>
+    <td>&lt;hr&gt;</td>
+    <td>horizontal rule (noshade)</td>
+    <td>&lt;hr width="50%" size="3" noshade&gt;</td>
+    <td>"Contents of your web page" <hr width="50%" size="3" noshade>"Contents of your web page"</td>
+</tr>
+
+<tr>
+    <td>&lt;hr&gt;</td>
+    <td>horizontal rule (IE specific color)</td>
+    <td>&lt;hr width="75%" color="#ff0000" size="4"&gt;</td>
+    <td>"Contents of your web page"<hr width="75%" color="#ff0000" size="4">"Contents of your web page"</td>
+</tr>
+
+<tr>
+    <td>&lt;hr&gt;</td>
+    <td>horizontal rule (blue color)</td>
+    <td>&lt;hr width="25%" color="#6699ff" size="6"&gt;</td>
+    <td>"Contents of your web page "<hr width="25%" color="#6699ff" size="6">"Contents of your web page"</td>
+</tr>
+<tr>
+    <td>&lt;html&gt;</td>
+    <td>HTML structure</td>
+    <td>
+        &lt;html&gt;<br>
+        &lt;head&gt;<br>
+        &lt;meta&gt;<br>
+        &lt;title&gt;Title of your web page&lt;/title&gt;<br>
+        &lt;/head&gt;<br>
+        &lt;body&gt;HTML web page contents&lt;/body&gt;<br>
+        &lt;/html&gt;
+    </td>
+    <td>"Displays the full contents of your web page"</td>
+</tr>
+
+<tr>
+    <td>&lt;i&gt;</td>
+    <td>italic</td>
+    <td>&lt;i&gt;Example&lt;/i&gt;</td>
+    <td><i>Example</i></td>
+</tr>
+
+<tr>
+    <td>&lt;img&gt;</td>
+    <td>image</td>
+    <td>&lt;img src="Earth.gif" width="41" height="41" border="0" alt="text describing the image" /&gt;</td>
+    <td><img src="Earth.gif" width="30%" 
+        height="100" border="0" alt="text describing 
+        the image" /></td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 1)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        &lt;input type="text" size="10" maxlength="30"&gt;<br>
+        &lt;input type="Submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            <input type="text" size="10" maxlength="30">
+            <input type="Submit" value="Submit">
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 2 with style)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        &lt;input type="text" style="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 12px; background-color: #72a4d2;" size="10" maxlength="30"&gt;<br>
+        &lt;input type="Submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            <input type="text" style="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 12px; background-color: #72a4d2;" size="10" maxlength="30">
+            <input type="Submit" value="Submit">
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 3 with image submit)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        &lt;table border="0" cellspacing="0" cellpadding="1"&gt;<br>
+        &lt;tr&gt;&lt;td bgcolor="#8463ff"&gt;&lt;input type="text" size="10" maxlength="30"&gt;&lt;/td&gt;<br>
+        &lt;td bgcolor="#8463ff" valign="Middle"&gt;&lt;input type="image" name="submit" src="submit.png"&gt;&lt;/td&gt;&lt;/tr&gt;<br>
+        &lt;/table&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            <div class="sample-output">
+            <table border="0" cellspacing="0" cellpadding="1">
+                <tr>
+                    <td bgcolor="#8463ff"><input type="text" size="10" maxlength="30"></td>
+                    <td bgcolor="#8463ff" valign="middle"><input type="image" name="submit" src="submit.png" alt="Submit Image" width="50" height="50"></td>
+                </tr>
+            </table>
+        </div>
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 4 - textarea)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        Enter Your Comments:&lt;br&gt;<br>
+        &lt;textarea wrap="virtual" name="Comments" rows="3" cols="20" maxlength="100"&gt;&lt;/textarea&gt;&lt;br&gt;<br>
+        &lt;input type="Submit" value="Submit"&gt;<br>
+        &lt;input type="Reset" value="Clear"&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            Enter Your Comments:<br>
+            <textarea wrap="virtual" name="Comments" rows="3" cols="20" maxlength="100"></textarea><br>
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Clear">
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 5 - dropdown)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        Select an option:&lt;br&gt;<br>
+        &lt;select&gt;<br>
+        &lt;option&gt;option 1&lt;/option&gt;<br>
+        &lt;option selected&gt;option 2&lt;/option&gt;<br>
+        &lt;option&gt;option 3&lt;/option&gt;<br>
+        &lt;option&gt;option 4&lt;/option&gt;<br>
+        &lt;option&gt;option 5&lt;/option&gt;<br>
+        &lt;option&gt;option 6&lt;/option&gt;<br>
+        &lt;/select&gt;&lt;br&gt;<br>
+        &lt;input type="Submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            Select an option:<br>
+            <select>
+                <option>option 1</option>
+                <option selected>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+                <option>option 6</option>
+            </select><br>
+            <input type="Submit" value="Submit">
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>input field (Example 6 - radio & checkbox)</td>
+    <td>
+        &lt;form method="post" action="/cgi-bin/example.cgi"&gt;<br>
+        Select an option:&lt;br&gt;<br>
+        &lt;input type="radio" name="option"&gt; Option 1<br>
+        &lt;input type="radio" name="option" checked&gt; Option 2<br>
+        &lt;input type="radio" name="option"&gt; Option 3<br><br>
+        Select an option:&lt;br&gt;<br>
+        &lt;input type="checkbox" name="selection"&gt; Selection 1<br>
+        &lt;input type="checkbox" name="selection" checked&gt; Selection 2<br>
+        &lt;input type="checkbox" name="selection"&gt; Selection 3<br>
+        &lt;input type="Submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+    </td>
+    <td>
+        <form method="post" action="/cgi-bin/example.cgi">
+            Select an option:<br>
+            <input type="radio" name="option"> Option 1
+            <input type="radio" name="option" checked> Option 2
+            <input type="radio" name="option"> Option 3
+            <br><br>
+            Select an option:<br>
+            <input type="checkbox" name="selection"> Selection 1
+            <input type="checkbox" name="selection" checked> Selection 2
+            <input type="checkbox" name="selection"> Selection 3
+            <br><input type="Submit" value="Submit">
+        </form>
+    </td>
+</tr>
+  
+  <tr>
+    <td>&lt;link&gt;</td>
+    <td>Link External CSS</td>
+    <td>
+      &lt;head&gt;<br>
+      &lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;<br>
+      &lt;/head&gt;
+    </td>
+    <td>"No visible output. Links external stylesheet." <a href = "https://www.w3schools.com/Css/" target="_blank" rel="noopener noreferrer" >Click </a>to learn more</td>
+  </tr>
+  
+  <tr>
+    <td>&lt;marquee&gt;</td>
+    <td>Scrolling Text</td>
+    <td>
+      &lt;marquee bgcolor="#cccccc" loop="-1" scrollamount="2" width="100%"&gt;<br>
+      Example Marquee&lt;/marquee&gt;
+    </td>
+    <td>Scrolling text (supported in older browsers like Internet Explorer)<marquee bgcolor="#cccccc" loop="-1" scrollamount="2" width="100%">
+        Example Marquee</marquee></td>
+  </tr>
+  
+  <tr>
+    <td>&lt;meta&gt;</td>
+    <td>Metadata</td>
+    <td>
+      &lt;meta name="Description" content="Description of your site"&gt;<br>
+      &lt;meta name="keywords" content="keywords describing your site"&gt;<br>
+      &lt;meta http-equiv="Refresh" content="4;URL=http://yourdomain.com/"&gt;<br>
+      &lt;meta http-equiv="Pragma" content="no-cache"&gt;<br>
+      &lt;meta name="rating" content="General"&gt;<br>
+      &lt;meta name="robots" content="noindex,follow"&gt;
+    </td>
+    <td>Not visible in browser. Used for page info, refresh, SEO.</td>
+  </tr>
+  
+  <tr>
+    <td>&lt;ol&gt;</td>
+    <td>Ordered List</td>
+    <td>
+      &lt;ol type="1"&gt; (default)<br>
+      &lt;ol type="a"&gt;<br>
+      &lt;ol type="A"&gt;<br>
+      &lt;ol type="i"&gt;<br>
+      &lt;ol type="I" start="7"&gt;
+    </td>
+    <td>
+      1. Item 1, 2. Item 2<br>
+      a. Item 1, b. Item 2<br>
+      A. Item 1, B. Item 2<br>
+      i. Item 1, ii. Item 2<br>
+      VII. Item 1, VIII. Item 2
+    </td>
+  </tr>
+  
+  <tr>
+    <td>&lt;option&gt;</td>
+    <td>Listbox Option</td>
+    <td>
+      &lt;select&gt;<br>
+      &lt;option&gt;Option 1&lt;/option&gt;<br>
+      &lt;option selected&gt;Option 2&lt;/option&gt;<br>
+      &lt;/select&gt;
+    </td>
+    <td><select>
+        <option>Option 1</option>
+        <option selected>Option 2</option>
+        </select></td>
+  </tr>
+  
+  <tr>
+    <td>&lt;p&gt;</td>
+    <td>Paragraph</td>
+    <td>
+      &lt;p align="left"&gt;Left aligned&lt;/p&gt;<br>
+      &lt;p align="center"&gt;Center aligned&lt;/p&gt;<br>
+      &lt;p align="right"&gt;Right aligned&lt;/p&gt;
+    </td>
+    <td>
+      <p align="left">Left aligned</p>
+      <p align="center">Center aligned</p>
+      <p align="right">Right aligned</p>
+    </td>
+  </tr>
+  
+  
+  <tr>
+    <td>&lt;small&gt;</td>
+    <td>Small Text</td>
+    <td>&lt;small&gt;Example&lt;/small&gt;</td>
+    <td><small>Example</small></td>
+  </tr>
+  
+<tr>
+    <td>&lt;strike&gt;</td>
+    <td>deleted text</td>
+    <td>&lt;strike&gt;Example&lt;/strike&gt;</td>
+    <td><strike>Example</strike></td>
+  </tr>
+  
+  <tr>
+    <td>&lt;strong&gt;</td>
+    <td>strong emphasis</td>
+    <td>&lt;strong&gt;Example&lt;/strong&gt;</td>
+    <td><strong>Example</strong></td>
+  </tr>
+
+  <tr>
+    <td>&lt;table&gt;</td>
+    <td>table</td>
+    <td>
+      <b>Example 1:</b><br>
+      &lt;table border="4" cellpadding="2" cellspacing="2" width="100%"&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Column 1&lt;/td&gt;<br>
+      &lt;td&gt;Column 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;<br><br>
+  
+      <b>Example 2:</b><br>
+      &lt;table border="2" bordercolor="#336699" cellpadding="2" cellspacing="2" width="100%"&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Column 1&lt;/td&gt;<br>
+      &lt;td&gt;Column 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;<br><br>
+  
+      <b>Example 3:</b><br>
+      &lt;table cellpadding="2" cellspacing="2" width="100%"&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td bgcolor="#cccccc"&gt;Column 1&lt;/td&gt;<br>
+      &lt;td bgcolor="#cccccc"&gt;Column 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Row 2&lt;/td&gt;<br>
+      &lt;td&gt;Row 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;
+    </td>
+    <td>
+        Example 1: 
+        <div class="sample-output">
+        <table border="4" cellpadding="2" 
+        cellspacing="2" width="100%"> 
+        <tr> 
+        <td>Column 1</td> 
+        <td>Column 2</td> 
+        </tr> 
+        </table> 
+         
+        Example 2:
+         
+        <table border="2" bordercolor="#336699" 
+        cellpadding="2" cellspacing="2" 
+        width="100%"> 
+        <tr> 
+        <td>Column 1</td> 
+        <td>Column 2</td> 
+        </tr> 
+        </table> 
+         
+        Example 3: 
+         
+        <table cellpadding="2" cellspacing="2" 
+        width="100%"> 
+        <tr> 
+        <td bgcolor="#cccccc">Column 1</td> 
+        <td bgcolor="#cccccc">Column 2</td> 
+        </tr> 
+        <tr> 
+        <td>Row 2</td> 
+        <td>Row 2</td> 
+        </tr> 
+        </table>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>&lt;td&gt;</td>
+    <td>table data</td>
+    <td>
+      &lt;table border="2" cellpadding="2" cellspacing="2" width="100%"&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Column 1&lt;/td&gt;<br>
+      &lt;td&gt;Column 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;
+    </td>
+    <td>
+        <div class="sample-output">
+        <table border="2" cellpadding="2" 
+        cellspacing="2" width="100%"> 
+        <tr> 
+        <td>Column 1</td> 
+        <td>Column 2</td> 
+        </tr> 
+        </table>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>&lt;th&gt;</td>
+    <td>table header</td>
+    <td>
+      &lt;div align="center"&gt;<br>
+      &lt;table&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;th&gt;Column 1&lt;/th&gt;<br>
+      &lt;th&gt;Column 2&lt;/th&gt;<br>
+      &lt;th&gt;Column 3&lt;/th&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Row 2&lt;/td&gt;<br>
+      &lt;td&gt;Row 2&lt;/td&gt;<br>
+      &lt;td&gt;Row 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Row 3&lt;/td&gt;<br>
+      &lt;td&gt;Row 3&lt;/td&gt;<br>
+      &lt;td&gt;Row 3&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Row 4&lt;/td&gt;<br>
+      &lt;td&gt;Row 4&lt;/td&gt;<br>
+      &lt;td&gt;Row 4&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;<br>
+      &lt;/div&gt;
+    </td>
+    <td>
+        <div align="center">
+            <div class="sample-output">
+            <table> 
+            <tr> 
+            <th>Column 1</th> 
+            <th>Column 2</th> 
+            <th>Column 3</th> 
+            </tr> 
+            <tr> 
+            <td>Row 2</td> 
+            <td>Row 2</td> 
+            <td>Row 2</td> 
+            </tr> 
+            <tr> 
+            <td>Row 3</td> 
+            <td>Row 3</td> 
+            <td>Row 3</td> 
+            </tr> 
+            <tr> 
+            <td>Row 4</td> 
+            <td>Row 4</td> 
+            <td>Row 4</td> 
+            </tr> 
+            </table>
+            </div> 
+            </div> 
+    </td>
+  </tr>
+
+  
+
+  <tr>
+    <td>&lt;tr&gt;</td>
+    <td>table row</td>
+    <td>
+      &lt;table border="2" cellpadding="2" cellspacing="2" width="100%"&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Column 1&lt;/td&gt;<br>
+      &lt;td&gt;Column 2&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;
+    </td>
+    <td>
+        <div class="sample-output">
+            <table border="2" cellpadding="2" cellspacing="2" width="100%"> 
+                <tr> 
+                    <td>Column 1</td> 
+                    <td>Column 2</td> 
+                </tr> 
+            </table> 
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>&lt;tt&gt;</td>
+    <td>teletype</td>
+    <td>&lt;tt&gt;Example&lt;/tt&gt;</td>
+    <td><tt>Example</tt></td>
+  </tr>
+
+  <tr>
+    <td>&lt;u&gt;</td>
+    <td>underline</td>
+    <td>&lt;u&gt;Example&lt;/u&gt;</td>
+    <td><u>Example</u></td>
+  </tr>
+
+  <tr>
+    <td>&lt;li&gt;</td>
+    <td>List Item</td>
+    <td>
+      &lt;menu&gt;<br>
+      &lt;li type="disc"&gt;List item 1&lt;/li&gt;<br>
+      &lt;li type="circle"&gt;List item 2&lt;/li&gt;<br>
+      &lt;li type="square"&gt;List item 3&lt;/li&gt;<br>
+      &lt;/menu&gt;<br><br>
+      &lt;ol type="i"&gt;<br>
+      &lt;li&gt;List item 1&lt;/li&gt;<br>
+      &lt;li&gt;List item 2&lt;/li&gt;<br>
+      &lt;li&gt;List item 3&lt;/li&gt;<br>
+      &lt;/ol&gt;
+    </td>
+    <td>
+      • List item 1<br>
+      ◦ List item 2<br>
+      ▪ List item 3<br><br>
+      i. List item 1<br>
+      ii. List item 2<br>
+      iii. List item 3
+    </td>
+  </tr>
+
+  <tr>
+    <td>&lt;ul&gt;</td>
+    <td>unordered list</td>
+    <td>
+      Example 1:<br>
+      &lt;ul&gt;<br>
+      &lt;li&gt;List item 1&lt;/li&gt;<br>
+      &lt;li&gt;List item 2&lt;/li&gt;<br>
+      &lt;/ul&gt;<br><br>
+      Example 2:<br>
+      &lt;ul type="disc"&gt;<br>
+      &lt;li&gt;List item 1&lt;/li&gt;<br>
+      &lt;li&gt;List item 2&lt;/li&gt;<br>
+      &lt;ul type="circle"&gt;<br>
+      &lt;li&gt;List item 3&lt;/li&gt;<br>
+      &lt;li&gt;List item 4&lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
+      &lt;/ul&gt;
+    </td>
+    <td>
+      • List item 1<br>
+      • List item 2<br><br>
+      • List item 1<br>
+      • List item 2<br>
+      ○ List item 3<br>
+      ○ List item 4
+    </td>
+  </tr>
+
+</tbody>
+
+</table>
+</body>
+    
+
+</html>

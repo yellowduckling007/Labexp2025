@@ -1,0 +1,63 @@
+/* Reset and base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7e3f4;
+    margin: 0;
+    padding: 20px;
+    color: #0E0E52; /* deep dark blue */
+  }
+  
+  /* Page title */
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #0E0E52; /* dark blue */
+    letter-spacing: 1px;
+  }
+  
+  /* Optional subtitle styling */
+  .subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #325A7A; /* soft blue-gray */
+    margin-top: 0;
+  }
+  
+  /* Table styling */
+  .main-table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Table header row */
+  .main-table th {
+    background-color: #0E0E52;  
+    color: #ffffff;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  /* Table rows */
+  .main-table td {
+    padding: 12px 16px;
+    border-top: 1px solid #e0e0e0;
+    color: #0E0E52;
+  }
+  
+  
+  .main-table tbody tr:hover {
+    background-color: #E1F3FB;  
+    transition: background-color 0.3s;
+  }
+   
+
+  
+  
