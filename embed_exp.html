@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML &lt;embed&gt; Tag</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d7e3f4;
+      margin: 0;
+      padding: 20px;
+      color: #0E0E52;
+    }
+
+    /* Page title */
+    .page-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      color: #0E0E52;
+      letter-spacing: 1px;
+    }
+
+    /* Subtitle */
+    .subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #325A7A;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Center container for all content */
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Section headings */
+    h3 {
+      color: #0E0E52;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-align: left; 
+    }
+
+    /* Paragraphs */
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    /* Code block styling */
+    pre {
+      background-color: #ffffff;
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+
+    code {
+      font-family: Consolas, monospace;
+      color: #0E0E52;
+      white-space: pre-wrap;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">HTML &lt;embed&gt; Tag</h1>
+  <p class="subtitle">Embedding various external content</p>
+
+  <div class="content">
+
+    <p>The <code>&lt;embed&gt;</code> tag lets you include external resources like multimedia files, PDFs, and more directly in your webpage.</p>
+
+    <p>Here are some common examples:</p>
+
+    <h3>Embedding a PDF file</h3>
+    <pre><code>&lt;embed src="sample.pdf" type="application/pdf" width="600" height="400" /&gt;</code></pre>
+
+    <h3>Embedding an audio file</h3>
+    <pre><code>&lt;embed src="audio.mp3" type="audio/mpeg" width="300" height="50" /&gt;</code></pre>
+
+    <h3>Embedding a video file</h3>
+    <pre><code>&lt;embed src="video.mp4" type="video/mp4" width="640" height="360" /&gt;</code></pre>
+  </div>
+
+</body>
+</html>
