@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML &lt;head&gt; Tag</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d7e3f4;
+      margin: 0;
+      padding: 20px;
+      color: #0E0E52;
+    }
+
+    /* Page title */
+    .page-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      color: #0E0E52;
+      letter-spacing: 1px;
+    }
+
+    /* Subtitle */
+    .subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #325A7A;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    /* Code block styling */
+    pre {
+      background-color: #ffffff;
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+
+    code {
+      font-family: Consolas, monospace;
+      color: #0E0E52;
+      white-space: pre-wrap;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      line-height: 1.5;
+    }
+
+    ul {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      line-height: 1.5;
+      color: #0E0E52;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">HTML &lt;head&gt; Tag</h1>
+  <p class="subtitle">What it is and why it’s important</p>
+
+  <p>The <code>&lt;head&gt;</code> element is a container for metadata and resources that describe the HTML document. It appears before the <code>&lt;body&gt;</code> tag and does not display content on the page itself.</p>
+
+  <p>Content inside <code>&lt;head&gt;</code> helps browsers understand how to process and render your page properly.</p>
+
+  <p>Common elements inside the <code>&lt;head&gt;</code> include:</p>
+  <ul>
+    <li><code>&lt;title&gt;</code> — Sets the title shown in the browser tab and search results.</li>
+    <li><code>&lt;meta&gt;</code> — Provides metadata like character encoding and viewport settings.</li>
+    <li><code>&lt;link&gt;</code> — Connects external files such as stylesheets and icons.</li>
+    <li><code>&lt;script&gt;</code> — Loads JavaScript files for functionality.</li>
+  </ul>
+
+  <p>Example usage:</p>
+  <pre><code>
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;My Website&lt;/title&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+  </code></pre>
+
+</body>
+</html>
