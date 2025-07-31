@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML &lt;meta&gt; Tag</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d7e3f4;
+      margin: 0;
+      padding: 20px;
+      color: #0E0E52;
+    }
+    .page-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      color: #0E0E52;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #325A7A;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h3 {
+      color: #0E0E52;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    pre {
+      background-color: #ffffff;
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+    code {
+      font-family: Consolas, monospace;
+      color: #0E0E52;
+      white-space: pre-wrap;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">HTML &lt;meta&gt; Tag</h1>
+  <p class="subtitle">Metadata and Document Settings</p>
+
+  <div class="content">
+
+    <p>The <code>&lt;meta&gt;</code> tag provides metadata about the HTML document. It is placed inside the &lt;head&gt; section and is not displayed on the page, but helps browsers and search engines understand the content.</p>
+
+    <h3>Common uses of &lt;meta&gt; tag:</h3>
+    <ul>
+      <li>Specifying character encoding</li>
+      <li>Setting viewport for responsive design</li>
+      <li>Providing page description for SEO</li>
+      <li>Author information</li>
+    </ul>
+
+    <h3>Example:</h3>
+    <pre><code>
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;meta name="description" content="A page about the HTML meta tag."&gt;
+  &lt;title&gt;Document Title&lt;/title&gt;
+&lt;/head&gt;
+    </code></pre>
+
+    <p>Using <code>&lt;meta charset="UTF-8"&gt;</code> ensures your document supports most characters worldwide. The viewport meta tag makes your page mobile-friendly.</p>
+
+  </div>
+
+</body>
+</html>
