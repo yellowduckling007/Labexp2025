@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML &lt;link&gt; Tag</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d7e3f4;
+      margin: 0;
+      padding: 20px;
+      color: #0E0E52;
+    }
+    .page-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      color: #0E0E52;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #325A7A;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h3 {
+      color: #0E0E52;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    pre {
+      background-color: #ffffff;
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+    code {
+      font-family: Consolas, monospace;
+      color: #0E0E52;
+      white-space: pre-wrap;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">HTML &lt;link&gt; Tag</h1>
+  <p class="subtitle">Linking External CSS to Your Webpage</p>
+
+  <div class="content">
+
+    <p>The <code>&lt;link&gt;</code> tag is used to connect external CSS files to your HTML document, allowing you to separate content from design.</p>
+
+    <h3>Basic syntax:</h3>
+    <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+
+    <h3>Example usage inside the &lt;head&gt; tag:</h3>
+    <pre><code>
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+    </code></pre>
+
+    <p>Using external CSS helps keep your HTML clean and makes it easier to maintain styles across multiple pages.</p>
+
+  </div>
+
+</body>
+</html>
